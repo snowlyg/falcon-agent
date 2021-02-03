@@ -1,4 +1,4 @@
-// Copyright 2018 Steven Lee <geekerlw.gmail.com>
+// Copyright 2018 Steven Lee <snowlyg.gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -113,11 +113,10 @@ func cpuGuestNice() float64 {
 func cpuStolen() float64 {
 	cpuLock.RLock()
 	defer cpuLock.RUnlock()
-	return cpuTime[1].Stolen - cpuTime[0].Stolen
+	return cpuTime[1].Steal - cpuTime[0].Steal
 }
 
 func CpuMetrics() []*model.MetricValue {
-
 	return []*model.MetricValue{
 		GaugeValue("cpu.user", cpuUser()),
 		GaugeValue("cpu.system", cpuSystem()),

@@ -20,7 +20,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/geekerlw/falcon-agent/g"
+	"github.com/snowlyg/falcon-agent/g"
 )
 
 type Dto struct {

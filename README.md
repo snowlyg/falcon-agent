@@ -17,8 +17,8 @@ it is a golang classic project
 
 ``` shell
 # set GOPATH and GOROOT
-go get github.com/geekerlw/falcon-agent
-cd $GOPATH/src/github.com/geekerlw/falcon-agent
+go get github.com/snowlyg/falcon-agent
+cd $GOPATH/src/github.com/snowlyg/falcon-agent
 go build -o falcon-agent.exe 	# for windows
 go build -o falcon-agent 	# for linux
 ```

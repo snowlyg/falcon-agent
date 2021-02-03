@@ -1,4 +1,4 @@
-// Copyright 2018 Steven Lee <geekerlw.gmail.com>
+// Copyright 2018 Steven Lee <snowlyg.gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@ package funcs
 import (
 	"log"
 
-	"github.com/geekerlw/falcon-agent/g"
+	"github.com/gosnmp/gosnmp"
 	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/soniah/gosnmp"
+	"github.com/snowlyg/falcon-agent/g"
 )
 
 func snmpGet(addr string, oids []string) (map[string]interface{}, error) {

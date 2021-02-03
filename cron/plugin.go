@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/geekerlw/falcon-agent/g"
-	"github.com/geekerlw/falcon-agent/plugins"
 	"github.com/open-falcon/falcon-plus/common/model"
+	"github.com/snowlyg/falcon-agent/g"
+	"github.com/snowlyg/falcon-agent/plugins"
 )
 
 func SyncMinePlugins() {

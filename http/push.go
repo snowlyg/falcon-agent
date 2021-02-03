@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/geekerlw/falcon-agent/g"
 	"github.com/open-falcon/falcon-plus/common/model"
+	"github.com/snowlyg/falcon-agent/g"
 )
 
 func configPushRoutes() {

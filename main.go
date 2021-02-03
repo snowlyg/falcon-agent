@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/geekerlw/falcon-agent/cron"
-	"github.com/geekerlw/falcon-agent/funcs"
-	"github.com/geekerlw/falcon-agent/g"
-	"github.com/geekerlw/falcon-agent/http"
+	"github.com/snowlyg/falcon-agent/cron"
+	"github.com/snowlyg/falcon-agent/funcs"
+	"github.com/snowlyg/falcon-agent/g"
+	"github.com/snowlyg/falcon-agent/http"
 )
 
 func main() {
